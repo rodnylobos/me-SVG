@@ -1,7 +1,7 @@
 Me-SVG
 ======
 
-### This is a vector file of my avatar.
+### An animated SVG of my avatar.
 
 Snap Demo Animation **Snap.svg** [link] (http://snapsvg.io/])
 
