@@ -6,15 +6,7 @@ Me-SVG
 Snap Demo Animation **Snap.svg** [link] (http://snapsvg.io/])
 
 
-![Designed with Sketch app] (http://rodnylobos.com/img/LogoSketch.png)
-
-####Designed with Sketch app [link] (http://bohemiancoding.com/sketch/)
-
-Here is the HTML:
-
-~~~
-<body>
-<svg id="face" width="1000" height="1000">
+`<svg id="face" width="1000" height="1000">
  <g id="hair">
  <svg  viewBox="0 0 200 390" xmlns="http://www.w3.org/2000/svg">
 <g>
@@ -34,12 +26,9 @@ Here is the HTML:
  </svg>
   <g>
 </svg>
-</body>
-~~~~
+`
 
-The CSS:
-
-~~~
+`CSS:
 
 .container {
 	padding:0px;
@@ -50,11 +39,10 @@ The CSS:
 html, body {
 	background:#43BDD4;
 }
-~~~
+`
 
-And the Javascript:
+`Script:
 
-~~~~
 var stage = Snap("#face");
 var g = stage.select("#hair");
 
@@ -117,5 +105,5 @@ setTimeout(function(){
 
 
 },200);
-~~~~
+`
 
